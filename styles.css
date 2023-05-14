@@ -1,0 +1,75 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the main colors */
+body {
+  background-color: #36454F;
+  color: #fff;
+  font-family: sans-serif, neue-montreal, sans-serif;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #242F36;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section styles */
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #36454F;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#resume { 
+  color: #95BFDB
+}
+/* Footer styles */
+footer {
+  background-color: #242F36;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
